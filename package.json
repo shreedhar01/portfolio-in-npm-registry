@@ -1,0 +1,20 @@
+{
+  "name": "shreedhar-kala-magar",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "pnpm build && pnpm start"
+  },
+  "bin": {
+    "shreedhar-kala-magar": "dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0"
+}
