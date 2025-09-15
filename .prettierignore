@@ -1,0 +1,15 @@
+.md
+
+pnpm-lock.yaml
+package-lock.json
+
+# Ignore files
+.env*
+tsconfig.json
+.gitignore
+
+# Ignore directories
+node_modules
+.husky/*
+.git/*
+.prettierignore
