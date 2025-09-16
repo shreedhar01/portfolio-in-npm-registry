@@ -1,18 +1,18 @@
-export const portfolio = () => {
-  const name = "Shreedhar Kala Magar";
-  const job = "Full Stack Developer";
-  const knowledge = "Frontend and Backend Development";
+export const portfolio = (
+  name = "Shreedhar Kala Magar",
+  job = "Full Stack Developer",
+  knowledge = "Frontend and Backend Development",
 
-  const education = `Tribhuvan University, Kantipur Engineering College 
+  education = `Tribhuvan University, Kantipur Engineering College 
     Bachelor in Electronics Communication and Information Engineering (BEI) | 7th Sem 
-    (Expected Graduation: 2026) `;
+    (Expected Graduation: 2026) `,
 
-  const skill = `Programming Languages : TypeScript, JavaScript, Python, Rust
+  skill = `Programming Languages : TypeScript, JavaScript, Python, Rust
     Frontend Development : React, Nextjs
     Backend Development : Node.js, Express.js 
     Other : Git, Linux 
-    `;
-  const projects = `● Full stack project :
+    `,
+  projects = `● Full stack project :
         - ToDo ( https://todo-in-nextjs-red.vercel.app/ ) 
         - Payment app (https://shreedhar.me/) 
     ● FrontEnd Project: 
@@ -20,12 +20,12 @@ export const portfolio = () => {
         - Omway Technologies (https://omway-nu.vercel.app/)  
     ● Entire Backend video sharing app like youtube: 
         - https://github.com/shreedhar01/backend
-    `;
-  const contact = `● Phone : 9866141911 
+    `,
+  contact = `● Phone : 9866141911 
     ● Email : shreedharkalamagar@gmail.com
     ● Github : https://github.com/shreedhar01
-    `;
-
+    `,
+) => {
   return `
     \x1b[1mIntroduction\x1b[0m
     I am ${name}. Aspiring ${job} with a good knowledge in ${knowledge}. Passionate about innovation, collaboration.
@@ -44,4 +44,8 @@ export const portfolio = () => {
     `;
 };
 
-// console.log(portfolio());
+console.log(portfolio());
+
+export const add = (a: number, b: number) => {
+  return a + b;
+};
