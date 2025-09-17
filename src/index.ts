@@ -44,7 +44,7 @@ export const portfolio = (
     `;
 };
 
-console.log(portfolio());
+// console.log(portfolio());
 
 export const add = (a: number, b: number) => {
   return a + b;
